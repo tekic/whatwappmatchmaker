@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: Whatwapp matchmaking service   
+  mongodb:
+    embedded:
+      version: 4.0.2
+  data:
+    mongodb:
+      database: test
+      port: 27017
